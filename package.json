@@ -6,10 +6,10 @@
   "scripts": {
     "start:dev": "webpack-dev-server",
     "start": "webpack --watch",
-    "server": "",
+    "server": "cd server server.js --ignore client",
     "build": "webpack --mode production",
-    "install": "",
-    "client": ""
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "",
