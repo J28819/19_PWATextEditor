@@ -1,7 +1,7 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "19 Webpack application Online/Offline",
   "main": "server.js",
   "scripts": {
     "start:dev": "webpack-dev-server",
@@ -16,10 +16,23 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "manifest.json": "^1.2.0",
+    "nodemanager-server.js": "^1.0.1",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
-  }
+    "nodemon": "^2.0.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J28819/19_PWATextEditor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/J28819/19_PWATextEditor/issues"
+  },
+  "homepage": "https://github.com/J28819/19_PWATextEditor#readme"
 }
