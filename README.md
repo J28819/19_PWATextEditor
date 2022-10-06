@@ -37,13 +37,13 @@ npm run start:dev
 
 ## Screenshoots
 ![My animated logo](./img/overview.png)</br>
-![My animated logo](./img/overview1.png)</br>
 ![My animated logo](./img/overview2.png)</br>
+![My animated logo](./img/overview3.png)</br>
 
 
 ## Google Drive Video Screensify
 
-Using Heroku deployment:
+Using Heroku deployment: https://pwatexteditor19.herokuapp.com/
 
 
 ## Conclusion 
